@@ -1,0 +1,17 @@
+{
+  "name": "SPA_ShowCase2",
+  "authors": [
+    "boyboi86 <boyboi86@gmail.com>"
+  ],
+  "description": "Standard Template",
+  "main": "index.html",
+  "license": "MIT",
+  "homepage": "https://github.com/boyboi86/SPA_Showcase2.git",
+  "dependencies": {
+    "angular": "^1.5.7",
+    "angular-route": "^1.5.7",
+    "bootstrap": "^3.3.6",
+    "angular-bootstrap": "^0.10.0",
+    "font-awesome": "^4.6.3"
+  }
+}

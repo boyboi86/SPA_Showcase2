@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html class="no-js"> 
+<head>
+    <title>WepApp Inc.</title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="description" content="Practice WebAPP Inc.">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+            <!-- Stylesheet via Bower Component -->
+            <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+            <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap-theme.min.css">
+            <link href="bower_components/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+            <!-- Javascripts via Bower Component -->
+            <script src="bower_components/jquery/dist/jquery.min.js"></script>
+            <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+            <script src="bower_components/angular/angular.min.js"></script>
+            <script src="bower_components/angular-route/angular-route.min.js"></script>
+            <script src="bower_components/angular-bootstrap/ui-bootstrap-tpls.min.js"></script>
+            <!-- Javascripts -->
+            <script src="script/app.js"></script>
+            <!-- Stylesheet -->
+            <link rel="stylesheet" href="assets/style.css">
+    </head>
+<body ng-app="WebApp">
+<!-- Website Content -->
+    <div ng-include='"templates/header.html"'></div>
+    <div ng-view></div>
+    <div ng-include='"templates/footer.html"'></div>
+<!-- Website Content -->
+</body>
+</html>
